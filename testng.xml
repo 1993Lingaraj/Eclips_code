@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ExcelRSuite">
+  <test thread-count="5" name="AlphaTestNG">
+    <classes>
+      <class name="TestNGBasic.TestFacebook"/>
+      <class name="TestNGBasic.DependsOn"/>
+      <class name="TestNGBasic.priorityDemoTestNg"/>
+      <class name="TestNGBasic.Assertion"/>
+    </classes>
+  </test> <!-- AlphaTestNG -->
+</suite> <!-- ExcelRSuite -->
+
